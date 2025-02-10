@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CsvViewer } from './components/CsvViewer';
 import { Footer } from './components/Footer';
 import { Attributions } from './components/Attributions';

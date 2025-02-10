@@ -28,8 +28,8 @@ export function CsvForm({
       const textarea = textareaRefs.current[lastUpdatedField];
       const container = scrollContainerRef.current;
       
-      const textareaRect = textarea.getBoundingClientRect();
-      const containerRect = container.getBoundingClientRect();
+      // const textareaRect = textarea.getBoundingClientRect();
+      // const containerRect = container.getBoundingClientRect();
       
       container.scrollTo({
         top: textarea.offsetTop - container.offsetHeight / 2 + textarea.offsetHeight / 2,
